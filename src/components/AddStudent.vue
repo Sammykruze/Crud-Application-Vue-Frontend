@@ -14,7 +14,7 @@
             <input class="form-control" type="text" placeholder="department" v-model="department"> <br>
              <input class="form-control" type="text" placeholder="faculty" v-model="faculty"> <br>
 
-      <button type="submit" class="btn btn-danger"> add student </button>
+      <button type="submit" class="btn btn-info"> add student </button>
        
        </form>
         </div>
@@ -51,9 +51,6 @@ methods: {
 
         })
     }
-
-    
-
 }
 }
 </script>
